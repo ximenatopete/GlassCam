@@ -1,0 +1,96 @@
+:root {
+  --primarycolor: #d9d9d9;
+  --secondarycolor: #8c8076;
+  --tertiarycolor: #46413e;
+}
+@font-face {
+  font-family: BaskervilleRegular;
+  src: url(./Fonts/Baskervville-Regular.ttf);
+}
+* {
+  margin: 0;
+}
+
+.menu {
+  display: inline-block;
+  float: left;
+}
+.logo {
+  display: inline-block;
+}
+header {
+  background-color: var(--primarycolor);
+  padding: 10px;
+  text-align: center;
+}
+.logo img {
+  width: 50px;
+}
+
+.explore {
+  display: inline-block;
+  float: right;
+}
+button {
+  background-color: var(--secondarycolor);
+  color: white;
+  font-size: 15pt;
+  font-style: italic;
+  font-family: BaskervilleRegular;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border-width: 0;
+}
+
+.background img {
+  padding-bottom: 15px;
+  background-size: cover;
+  width: 100%;
+  height: 120vh;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 40vw);
+  grid-gap: 15px;
+}
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimonio1 {
+  text-align: center;
+  font-family: BaskervilleRegular;
+  font-size: 15pt;
+  width: 400px;
+  display: inline-block;
+  padding: 50px;
+}
+
+.testimonio2 {
+  text-align: center;
+  font-family: BaskervilleRegular;
+  font-size: 15pt;
+  width: 400px;
+  display: inline-block;
+  padding: 50px;
+}
+
+.testimonio3 {
+  text-align: center;
+  font-family: BaskervilleRegular;
+  font-size: 15pt;
+  width: 400px;
+  align-items: center;
+}
+
+h6 {
+  text-align: center;
+  font-family: BaskervilleRegular;
+  font-style: italic;
+  font-size: 15pt;
+  color: var(--tertiarycolor);
+}
