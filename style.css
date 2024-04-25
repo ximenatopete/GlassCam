@@ -52,7 +52,7 @@ button {
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 40vw);
+  grid-template-rows: repeat(1, 40vw);
   grid-gap: 15px;
 }
 .gallery img {
@@ -65,26 +65,28 @@ button {
   text-align: center;
   font-family: BaskervilleRegular;
   font-size: 15pt;
-  width: 400px;
+  width: 40%;
   display: inline-block;
-  padding: 50px;
+  padding: 100px 80px;
 }
 
 .testimonio2 {
   text-align: center;
   font-family: BaskervilleRegular;
   font-size: 15pt;
-  width: 400px;
+  width: 40%;
   display: inline-block;
-  padding: 50px;
+  padding: 100px 60px;
 }
 
 .testimonio3 {
   text-align: center;
   font-family: BaskervilleRegular;
   font-size: 15pt;
-  width: 400px;
-  align-items: center;
+  width: 500px;
+  margin-left: 500px;
+  margin-right: 500px;
+  padding-bottom: 200px;
 }
 
 h6 {
@@ -92,5 +94,5 @@ h6 {
   font-family: BaskervilleRegular;
   font-style: italic;
   font-size: 15pt;
-  color: var(--tertiarycolor);
+  color: var(--secondarycolor);
 }

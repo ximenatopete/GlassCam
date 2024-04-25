@@ -1,0 +1,58 @@
+:root {
+  --primarycolor: #d9d9d9;
+  --secondarycolor: #8c8076;
+  --tertiarycolor: #46413e;
+}
+@font-face {
+  font-family: BaskervilleRegular;
+  src: url(./Fonts/Baskervville-Regular.ttf);
+}
+* {
+  margin: 0;
+}
+
+.menu {
+  display: inline-block;
+  float: left;
+}
+.logo {
+  display: inline-block;
+}
+header {
+  background-color: var(--primarycolor);
+  padding: 10px;
+  text-align: center;
+}
+.logo img {
+  width: 50px;
+}
+
+.explore {
+  display: inline-block;
+  float: right;
+}
+button {
+  background-color: var(--secondarycolor);
+  color: white;
+  font-size: 15pt;
+  font-style: italic;
+  font-family: BaskervilleRegular;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border-width: 0;
+}
+
+h6 {
+  font-family: BaskervilleRegular;
+  font-size: 65px;
+  color: var(--secondarycolor);
+  font-style: italic;
+  padding-top: 100px;
+}
+
+.aboutus {
+  font-family: BaskervilleRegular;
+  color: var(--tertiarycolor);
+  width: 1000px;
+  padding-left: 65px;
+}
