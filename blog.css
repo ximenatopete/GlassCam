@@ -1,0 +1,91 @@
+:root {
+  --primarycolor: #d9d9d9;
+  --secondarycolor: #8c8076;
+  --tertiarycolor: #46413e;
+}
+@font-face {
+  font-family: BaskervilleRegular;
+  src: url(./Fonts/Baskervville-Regular.ttf);
+}
+* {
+  margin: 0;
+}
+
+.menu {
+  display: inline-block;
+  float: left;
+}
+.logo {
+  display: inline-block;
+}
+header {
+  background-color: var(--primarycolor);
+  padding: 10px;
+  text-align: center;
+}
+.logo img {
+  width: 50px;
+}
+
+.explore {
+  display: inline-block;
+  float: right;
+}
+
+a {
+  background-color: var(--secondarycolor);
+  color: white;
+  font-size: 15pt;
+  font-style: italic;
+  font-family: BaskervilleRegular;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border-width: 0;
+}
+
+.background img {
+  padding-bottom: 15px;
+  background-size: cover;
+  width: 100%;
+  height: 120vh;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: max-content;
+  grid-gap: 15px;
+  padding: 40px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.gallerydos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: max-content;
+  grid-gap: 15px;
+  padding: 40px;
+}
+
+.gallerydos img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+footer {
+  background-color: var(--primarycolor);
+  padding: 25px;
+  text-align: center;
+  font-family: BaskervilleRegular;
+  color: var(--secondarycolor);
+  font-style: italic;
+  font-size: 20pt;
+}

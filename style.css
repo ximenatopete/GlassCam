@@ -31,7 +31,8 @@ header {
   display: inline-block;
   float: right;
 }
-button {
+
+a {
   background-color: var(--secondarycolor);
   color: white;
   font-size: 15pt;
@@ -77,6 +78,7 @@ button {
   width: 40%;
   display: inline-block;
   padding: 100px 60px;
+  vertical-align: top;
 }
 
 .testimonio3 {
@@ -95,4 +97,14 @@ h6 {
   font-style: italic;
   font-size: 15pt;
   color: var(--secondarycolor);
+}
+
+footer {
+  background-color: var(--primarycolor);
+  padding: 25px;
+  text-align: center;
+  font-family: BaskervilleRegular;
+  color: var(--secondarycolor);
+  font-style: italic;
+  font-size: 20pt;
 }
