@@ -1,0 +1,136 @@
+:root {
+  --primarycolor: #d9d9d9;
+  --secondarycolor: #8c8076;
+  --tertiarycolor: #46413e;
+}
+@font-face {
+  font-family: BaskervilleRegular;
+  src: url(./Fonts/Baskervville-Regular.ttf);
+}
+* {
+  margin: 0;
+}
+
+.menu {
+  display: inline-block;
+  float: left;
+}
+.logo {
+  display: inline-block;
+}
+header {
+  background-color: var(--primarycolor);
+  padding: 10px;
+  text-align: center;
+}
+.logo img {
+  width: 50px;
+}
+
+.explore {
+  display: inline-block;
+  float: right;
+}
+
+a {
+  background-color: var(--secondarycolor);
+  color: white;
+  font-size: 15pt;
+  font-style: italic;
+  font-family: BaskervilleRegular;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border-width: 0;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: max-content;
+  grid-gap: 15px;
+  padding: 40px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.explicacion {
+  color: var(--secondarycolor);
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+.titulo {
+  font-family: BaskervilleRegular;
+  font-style: italic;
+  font-size: 35pt;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.descrcipcion {
+  font-family: BaskervilleRegular;
+  font-size: 20;
+  padding-bottom: 30px;
+  width: 400px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #46413e;
+}
+
+.tamaños {
+  font-family: BaskervilleRegular;
+  font-style: italic;
+  font-size: 25pt;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.lista {
+  font-family: BaskervilleRegular;
+  font-size: 20;
+  padding-bottom: 30px;
+  width: 400px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #46413e;
+}
+
+.indicaciones {
+  font-family: BaskervilleRegular;
+  font-style: italic;
+  padding-bottom: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 5px;
+}
+
+h4 {
+  border-radius: 500px;
+  background-color: #8c8076;
+  color: #d9d9d9;
+  font-size: 25pt;
+  padding: 10px;
+  text-align: center;
+}
+
+.escribir {
+  padding: 40px;
+  font-family: BaskervilleRegular;
+  font-style: italic;
+}
+
+h3 {
+  background-color: #d9d9d9;
+  color: #8c8076;
+  font-size: 16pt;
+  padding-bottom: 300px;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-left: 20px;
+}

@@ -1,0 +1,193 @@
+:root {
+  --primarycolor: #d9d9d9;
+  --secondarycolor: #8c8076;
+  --tertiarycolor: #46413e;
+}
+@font-face {
+  font-family: BaskervilleRegular;
+  src: url(./Fonts/Baskervville-Regular.ttf);
+}
+* {
+  margin: 0;
+}
+
+.menu {
+  display: inline-block;
+  float: left;
+}
+.logo {
+  display: inline-block;
+}
+header {
+  background-color: var(--primarycolor);
+  padding: 10px;
+  text-align: center;
+}
+.logo img {
+  width: 50px;
+}
+
+.explore {
+  display: inline-block;
+  float: right;
+}
+
+a {
+  background-color: var(--secondarycolor);
+  color: white;
+  font-size: 15pt;
+  font-style: italic;
+  font-family: BaskervilleRegular;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border-width: 0;
+}
+
+.background img {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background-size: cover;
+  width: 100%;
+}
+
+.infowrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 15vw);
+  object-fit: fill;
+  padding-bottom: 10px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.quoteone {
+  grid-column: 1 / 3;
+}
+
+.quoteone {
+  text-align: right;
+  font-family: BaskervilleRegular;
+  color: #8c8076;
+  font-size: 40pt;
+  font-style: italic;
+  padding-right: 100px;
+}
+
+.explicacion {
+  grid-column: 4 / 6;
+}
+
+.explicacion {
+  text-align: left;
+  font-family: BaskervilleRegular;
+  color: #8c8076;
+  font-size: 20pt;
+  padding-right: 100px;
+  font-style: normal;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: max-content;
+  grid-gap: 15px;
+  padding: 40px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.textwrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 5vw);
+  object-fit: fill;
+  padding-bottom: 10px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.textouno {
+  font-size: 20pt;
+  font-family: BaskervilleRegular;
+  color: #8c8076;
+  font-style: italic;
+}
+
+.textodos {
+  font-size: 20pt;
+  font-family: BaskervilleRegular;
+  color: #8c8076;
+  font-style: italic;
+}
+
+.textotres {
+  font-size: 20pt;
+  font-family: BaskervilleRegular;
+  color: #8c8076;
+  font-style: italic;
+}
+
+.descriptionwrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 5vw);
+  object-fit: fill;
+  text-align: center;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.glasspersonalizado {
+  font-size: 12pt;
+  font-family: BaskervilleRegular;
+  color: #46413e;
+}
+
+.polaroids {
+  font-size: 12pt;
+  font-family: BaskervilleRegular;
+  color: #46413e;
+}
+
+.cards {
+  font-size: 12pt;
+  font-family: BaskervilleRegular;
+  color: #46413e;
+}
+
+.botoneswrapper {
+  text-align: center;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 20px;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 5vw);
+}
+
+.botonuno {
+  padding: 20px;
+}
+
+.botondos {
+  padding: 20px;
+}
+
+.botontres {
+  padding: 20px;
+}
+
+footer {
+  background-color: var(--primarycolor);
+  padding: 25px;
+  text-align: center;
+  font-family: BaskervilleRegular;
+  color: var(--secondarycolor);
+  font-style: italic;
+  font-size: 20pt;
+}
